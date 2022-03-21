@@ -10,6 +10,10 @@ function Header() {
       <IconButton>
         <PersonIcon className='header_icon' fontSize='large' />
       </IconButton>
+      <img
+        src='https://www.logo.wine/a/logo/Tinder_(app)/Tinder_(app)-Flame-Logo.wine.svg'
+        alt=''
+      />
     </div>
   )
 }

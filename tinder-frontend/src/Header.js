@@ -11,6 +11,7 @@ function Header() {
         <PersonIcon className='header_icon' fontSize='large' />
       </IconButton>
       <img
+        className='header_logo'
         src='https://www.logo.wine/a/logo/Tinder_(app)/Tinder_(app)-Flame-Logo.wine.svg'
         alt=''
       />

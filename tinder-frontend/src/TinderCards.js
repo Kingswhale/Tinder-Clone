@@ -26,7 +26,7 @@ function TinderCards() {
   }
   return (
     <div className='tinderCards'>
-      <div className='ttinderCards_cardContainer'>
+      <div className='tinderCards_cardContainer'>
         {people.map((person) => (
           <TinderCard
             className='swipe'
@@ -39,7 +39,7 @@ function TinderCards() {
               style={{ backgroundImage: `url(${person.url})` }}
               className='card'
             >
-              <h1>{person.name}</h1>
+              <h3>{person.name}</h3>
             </div>
           </TinderCard>
         ))}

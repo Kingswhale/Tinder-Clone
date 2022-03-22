@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Header from './Header'
 import TinderCards from './TinderCards'
+import SwipeButtons from './SwipeButtons'
 
 function App() {
   //BEM class naming convention
@@ -9,7 +10,7 @@ function App() {
     <div className='app'>
       <Header />
       <TinderCards />
-      {/* swip button */}
+      <SwipeButtons />
     </div>
   )
 }

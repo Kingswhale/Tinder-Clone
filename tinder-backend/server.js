@@ -17,6 +17,6 @@ app.get('/', (req, res) => {
 
 // Listerners
 
-app.listeners(port, () => {
+app.listen(port, () => {
   console.log(`listening to localhost: ${port}`)
 })

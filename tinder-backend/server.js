@@ -5,6 +5,7 @@ import mongoose from 'mongoose'
 
 const app = express()
 const port = process.env.PORT || 8001
+const connection_url = `mongodb+srv://admin:8DB0dH3g19ZocjHp@cluster0.lbiqx.mongodb.net/tinderdb?retryWrites=true&w=majority`
 
 // Middlewares
 
@@ -12,7 +13,7 @@ const port = process.env.PORT || 8001
 
 // API Endpoints
 app.get('/', (req, res) => {
-  res.status(200).send('Hellow Kings this is your first API')
+  res.status(200).send('Hello Kings this is your first API')
 })
 
 // Listerners

@@ -10,6 +10,11 @@ const connection_url = `mongodb+srv://admin:8DB0dH3g19ZocjHp@cluster0.lbiqx.mong
 // Middlewares
 
 // DB Config
+mongoose.connect(connection_url, {
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true,
+})
 
 // API Endpoints
 app.get('/', (req, res) => {

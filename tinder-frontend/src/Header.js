@@ -8,7 +8,7 @@ function Header() {
   return (
     //BEM class naming conventions
     <div className='header'>
-      <IconButton onClick={console.log('You click me.....')}>
+      <IconButton>
         <PersonIcon className='header_icon' fontSize='large' />
       </IconButton>
       <img

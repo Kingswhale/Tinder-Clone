@@ -47,4 +47,3 @@ function TinderCards() {
 }
 
 export default TinderCards
-Í

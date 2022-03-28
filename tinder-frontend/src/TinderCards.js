@@ -14,7 +14,7 @@ function TinderCards() {
     fetchData()
   }, [])
 
-  console.log('this is where people is ', people)
+  console.log(' where are the people ', people)
 
   const swiped = (direction, nameTODelete) => {
     console.log('removing' + nameTODelete)
@@ -47,3 +47,4 @@ function TinderCards() {
 }
 
 export default TinderCards
+Í

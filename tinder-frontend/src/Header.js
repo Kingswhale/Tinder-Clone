@@ -6,8 +6,9 @@ import ForumIcon from '@material-ui/icons/Forum'
 
 function Header() {
   return (
+    //BEM class naming conventions
     <div className='header'>
-      <IconButton>
+      <IconButton onClick={console.log('You click me.....')}>
         <PersonIcon className='header_icon' fontSize='large' />
       </IconButton>
       <img

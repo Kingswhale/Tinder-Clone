@@ -6,7 +6,7 @@ import ForumIcon from '@material-ui/icons/Forum'
 
 function Header() {
   return (
-    //BEM class naming conventions
+    //BEM class css naming conventions
     <div className='header'>
       <IconButton>
         <PersonIcon className='header_icon' fontSize='large' />

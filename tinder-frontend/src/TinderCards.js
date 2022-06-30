@@ -23,6 +23,7 @@ function TinderCards() {
     console.log(name + ' left the screen')
   }
   return (
+    // All the parameter should be carfully checked
     <div className='tinderCards'>
       <div className='tinderCards_cardContainer'>
         {people.map((person) => (
